@@ -35,8 +35,7 @@ public class ManageProductTest extends Base {
 		manageproduct.getFullrow();
 
 	}
-
-	@Test(groups = "regression")
+@Test(groups = "regression")
 
 	public void verifynewButton() {
 
@@ -47,8 +46,7 @@ public class ManageProductTest extends Base {
 		manageproduct.ClickonnewButton();
 
 	}
-
-	@Test
+@Test
 	public void verifyReset() {
 		loginpage = new LoginPage(driver);
 		loginpage.login();
