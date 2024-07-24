@@ -1,0 +1,48 @@
+<suite name="Regression run"> thread-count="6" parallel="tests" >
+	<listeners>
+		<listener class-name="com.sevenrmartsupermarket.listeners.ExtentReport"></listener>
+	</listeners>
+	<test name="Accessibility 1">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.HomeTest">
+
+			</class>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Accessibility 2">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.HomeTest">
+
+			</class>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+
+			</class>
+			
+			
+		</classes>
+	</test>
+
+
+	<test name="Accessibility 3">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.HomeTest">
+
+			</class>
+
+			<class name="com.sevenrmartsupermarket.tests.LoginTest">
+
+
+			</class>
+		</classes>
+	</test>
+
+</suite>

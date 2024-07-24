@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression run]">
+  <listeners>
+    <listener class-name="com.sevenrmartsupermarket.listeners.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Accessibility 1(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin_Excel"/>
+          <include name="verifyLogin"/>
+          <include name="terminateSession"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.LoginTest -->
+    </classes>
+  </test> <!-- Accessibility 1(failed) -->
+  <test thread-count="5" name="Accessibility 2(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin_Excel"/>
+          <include name="verifyLogin"/>
+          <include name="terminateSession"/>
+          <include name="verifyData"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.LoginTest -->
+    </classes>
+  </test> <!-- Accessibility 2(failed) -->
+  <test thread-count="5" name="Accessibility 3(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.LoginTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin_Excel"/>
+          <include name="terminateSession"/>
+          <include name="verifyLogin"/>
+          <include name="verifyData"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.LoginTest -->
+    </classes>
+  </test> <!-- Accessibility 3(failed) -->
+</suite> <!-- Failed suite [Regression run] -->
