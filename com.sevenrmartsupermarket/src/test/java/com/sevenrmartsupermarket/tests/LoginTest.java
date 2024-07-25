@@ -22,8 +22,7 @@ public class LoginTest extends Base {
 	ScreenshotCapture screenshot = new ScreenshotCapture();
 
 	@Test()
-
-	public void verifyLogin() {
+public void verifyLogin() {
 		loginpage = new LoginPage(driver);
 		homepage = new HomePage(driver);
 
